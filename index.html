@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anil Pawar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/AnilPawar.png"
+              alt="Anil Pawar"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Anil Pawar">Mr. Anil Pawar</h1>
+            <p class="title">Assistant Professor</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:anil.pawar@pccoepune.org" class="contact-link"
+                  >anil.pawar@pccoepune.org</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+12133522795" class="contact-link">9901865907</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1992-06-03">June 03, 1992</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Dept. of Computer Engg, PCCoE, Nigdi, Pune.</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/anil-pawar-3421912a9/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://wa.me/9901865907"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Notice</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Study Material</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Creative Director and UI/UX Designer from Sydney, Australia,
+              working in web development and print media. I enjoy turning
+              complex problems into simple, beautiful and intuitive designs.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way. I created web design for many
+              famous brand companies.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Research articles</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Fake Product Identification System Using Blockchain.
+                  </h4>
+
+                  <p class="service-item-text">
+                    Anil Pawar, S. A. Quadri, and Meenaz Kolyal. Journal of
+                    Emerging Technologies and Innovative Research 9.12 (2022).
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    IDENTIFYING FAKE PRODUCTS USING HYPERLEDGER FABRIC
+                    BLOCKCHAIN
+                  </h4>
+
+                  <p class="service-item-text">
+                    SN Hussain, S Jalapur, Anil Pawar - Journal of Data
+                    Acquisition and Processing, 2023.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    A VOICE RECOGNITION-BASED MACHINE LEARNING APPROACH FOR
+                    IDENTIFYING RESPIRATORY ISSUES
+                  </h4>
+
+                  <p class="service-item-text">
+                    Meenaz Kolyal, S. A. Quadri, and Anil Pawar. International
+                    Journal of Emerging Technologies and Innovative Research
+                    (www.jetir.org), ISSN: 2349-5162, Vol. 9, Issue 8, page no.
+                    a246-a254, August 2022.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">Patents</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Automatic Recommendation System To Overcome Depression
+                    Measured From Social Media Posts Using Machine Learning.
+                  </h4>
+
+                  <p class="service-item-text">
+                    Inventors Anil Pawar, Dr. Syed Naimatullah Hussain, Subhakar
+                    Mattuppali, Pooja Ahuja S. 41002473 US-2023.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="quick-links">
+            <h3>Quick Links</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <a
+                  href="https://vidwan.inflibnet.ac.in//profile/297304/Mjk3MzA0"
+                  target="_blank"
+                  ><i class="fas fa-link"></i> Vidwan ID</a
+                >
+              </li>
+              <li class="service-item">
+                <a
+                  href="https://scholar.google.co.in/citations?hl=en&user=QjXm-igAAAAJ"
+                  target="_blank"
+                  ><i class="fas fa-link"></i> WOS Link</a
+                >
+              </li>
+              <li class="service-item">
+                <a
+                  href="https://scholar.google.co.in/citations?hl=en&user=QjXm-igAAAAJ"
+                  target="_blank"
+                  ><i class="fas fa-link"></i> ORCID ID / Link</a
+                >
+              </li>
+              <li class="service-item">
+                <a
+                  href="https://www.researchgate.net/profile/Anil-Pawar-12"
+                  target="_blank"
+                  ><i class="fas fa-link"></i> Research Gate ID</a
+                >
+              </li>
+              <li class="service-item">
+                <a
+                  href="https://scholar.google.co.in/citations?hl=en&user=QjXm-igAAAAJ"
+                  target="_blank"
+                  ><i class="fas fa-link"></i> Google Scholar Link</a
+                >
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  M S Ramaiah Institute of Technology, Bangalore, Karnataka
+                </h4>
+
+                <span>2007 — 2008</span>
+
+                <p class="timeline-text">B.E in Computer Science</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Secab Institute of Engg and Technology, Vijayapur, Karnataka
+                </h4>
+
+                <span>2006 — 2007</span>
+
+                <p class="timeline-text">
+                  M.Tech in Computer Network Engineering
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Creative director</h4>
+
+                <span>2015 — Present</span>
+
+                <p class="timeline-text">
+                  Nemo enim ipsam voluptatem blanditiis praesentium voluptum
+                  delenit atque corrupti, quos dolores et qvuas molestias
+                  exceptur.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Art director</h4>
+
+                <span>2013 — 2015</span>
+
+                <p class="timeline-text">
+                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
+                  delenit atque corrupti, quos dolores et quas molestias
+                  exceptur.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web designer</h4>
+
+                <span>2010 — 2013</span>
+
+                <p class="timeline-text">
+                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
+                  delenit atque corrupti, quos dolores et quas molestias
+                  exceptur.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Subjects Taught</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Computer Networks</h5>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Java,C++</h5>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Branding</h5>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Computer Vision</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Image and Video Processing(Ongoing)</h5>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #NOTICE
+      -->
+
+        <article class="Notice" data-page="Notice">
+          <header>
+            <h2 class="h2 article-title">Notices - A.Y 2023-24</h2>
+          </header>
+
+          <section class="projects">
+            <button class="filter-select" data-select></button>
+          </section>
+
+          <div class="notice">
+            <h2>IE-2 for Image and Video Processing (PEC - 4) - BCE6511</h2>
+            <p><strong>Date: 04/04/2024</strong></p>
+            <ol>
+              <li>
+                Read all the instructions carefully which are given in the below
+                link.
+              </li>
+              <li>
+                The last date is to submit assignments on 10th April 2024 before
+                5 pm.
+              </li>
+              <li>
+                A Softcopy needs to be submitted/uploaded on Google Form. (The
+                link is given below)
+              </li>
+            </ol>
+            <button class="btn">
+              <a
+                href="https://docs.google.com/document/d/1R0Ouo3J21JpnvlAf6lNK1i4YY3rKok1d/edit"
+                >IE-2 Questions and Rubrics</a
+              >
+            </button>
+            <button class="btn">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf6n1KkJTCPgwBxqnmGO9R-xy7OjNWDr3r0pFXp8lvjTy7lSg/formrestricted"
+              >
+                Upload IE-2 Poster and Assignment in single PDF
+              </a>
+            </button>
+
+            <h2>Image and Video Processing (PEC - 4) - BCE6511</h2>
+            <p><strong>Date: 11/03/2024</strong></p>
+            <ul>
+              <li>IVP-4 MTE Paper</li>
+              <li>
+                Open-day is scheduled during the IVP-4 lecture on Wednesday
+                13/03/2024 @12.10pm
+              </li>
+            </ul>
+
+            <h2>IE-1 for Image and Video Processing (PEC - 4) - BCE6511</h2>
+            <p><strong>Date: 08/02/2024</strong></p>
+            <ol>
+              <li>
+                IVP-4 Batch students read the assignment questions properly.
+              </li>
+              <li>
+                Solve the assignment questions on paper and submit them with
+                proper student details.
+              </li>
+              <li>
+                Last date is to submit assignments on 14th February and 15th
+                February 2024 during your lecture.
+              </li>
+              <li>
+                On 14th February 2024, Oral will be conducting for students PRN
+                number from
+              </li>
+              <ol>
+                <li>T.Y B DIVISION 121B1D105 TO 122B2B310</li>
+                <li>T.Y E DIVISION 121B1D001 TO 121B1D015</li>
+              </ol>
+              <li>
+                On 15th February 2024, Oral will be conducting for students PRN
+                number from
+              </li>
+              <ol>
+                <li>T.Y E DIVISION 121B1D015 TO 121B1D074 AND 121B2B154</li>
+              </ol>
+            </ol>
+            <button class="btn">
+              <a
+                href="https://drive.google.com/file/d/1bGgdLgaOos5rLIAYCVye-Pjm6NRBkqRH/view"
+                >IE1 Questions and Rubrics</a
+              >
+            </button>
+          </div>
+        </article>
+
+        <!--
+        - #StudyMaterial
+      -->
+
+        <article class="Study Material" data-page="Study Material">
+          <header>
+            <h2 class="h2 article-title">Study Material</h2>
+          </header>
+
+          <section class="study-posts">
+            <ul class="study-posts-list">
+              <li class="study-post-item">
+                <a href="#">
+                  <figure class="study-banner-box">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FMOSFbVDTAgCh1QVnWbHEbXu63gTrnMnjQ&ss"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="study-content">
+                    <h3 class="h3 study-item-title">CPPS-2</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="study-post-item">
+                <a href="#">
+                  <figure class="study-banner-box">
+                    <img
+                      src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Computer_Vision.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="study-content">
+                    <h3 class="h3 study-item-title">Computer Vision</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="study-post-item">
+                <a href="#">
+                  <figure class="study-banner-box">
+                    <img
+                      src="https://media.geeksforgeeks.org/wp-content/uploads/20230406152358/CN-(1).jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="study-content">
+                    <h3 class="h3 study-item-title">Computer Networks</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="study-post-item">
+                <a href="#">
+                  <figure class="study-banner-box">
+                    <img
+                      src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="study-content">
+                    <h3 class="h3 study-item-title">Java</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="study-post-item">
+                <a href="#">
+                  <figure class="study-banner-box">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FMOSFbVDTAgCh1QVnWbHEbXu63gTrnMnjQ&s"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="study-content">
+                    <h3 class="h3 study-item-title">C++</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="study-post-item">
+                <a href="#">
+                  <figure class="study-banner-box">
+                    <img
+                      src="https://staticg.sportskeeda.com/editor/2023/03/d991f-16778316856035-1920.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="study-content">
+                    <h3 class="h3 study-item-title">
+                      Image and Video Processing
+                    </h3>
+                  </div>
+                </a>
+              </li>
+              <li class="study-post-item">
+                <a href="#">
+                  <figure class="study-banner-box">
+                    <img
+                      src="https://staticg.sportskeeda.com/editor/2023/03/d991f-16778316856035-1920.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="study-content">
+                    <h3 class="h3 study-item-title">IVP Lab</h3>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30246.943620104314!2d73.74925296440615!3d18.625008149085478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9e76c8fa205%3A0x1b210131915734fd!2sPCCOE%20-%20Pimpri%20Chinchwad%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1722610060760!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
